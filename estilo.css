@@ -1,0 +1,621 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    border: none;
+    outline: none;
+    font-weight: 300;
+    /*intencidade do negrito*/
+    box-sizing: border-box;
+    /*determina a borda carregada */
+    font-family: 'lato' sans-serif;
+    /*tipo de fonte carregada*/
+}
+
+body {
+    background-color: #f5f5f5;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+img {
+    width: 100%;
+}
+
+
+/*Cabeçalho*/
+
+.cabecalho {
+    width: 100%;
+    /*tamanho da página*/
+    float: left;
+    padding: 3% 4%;
+    background-color: white;
+    position: relative;
+}
+
+.logo {
+    margin: 10px 4px 10px 4px;
+    width: 5px;
+    height: 60px;
+    /*Altura*/
+    float: left;
+    background: url(../img/logo-mobile.png)center center/56px no-repeat;
+    font-size: 0px;
+}
+
+.btn-menu {
+    width: 56px;
+    height: 56px;
+    float: right;
+    text-align: center;
+    color: white;
+    border-radius: 56px;
+    cursor: pointer;
+    background: linear-gradient(to right, #000000, #dad6d3);
+}
+
+
+/*Menu*/
+
+.menu {
+    display: none;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background-color: rgba(0, 0, 0.9);
+    top: 0px;
+    left: 0px;
+}
+
+.btn-close {
+    font-size: 48px;
+    color: #f5f5f5;
+    float: right;
+    cursor: pointer;
+    margin-right: 3%;
+}
+
+.menu ul {
+    width: 100%;
+    float: left;
+    text-align: center;
+}
+
+.menu li {
+    padding: 1.5%;
+    background: linear-gradient(to right, #000000, #dad6d3);
+}
+
+.menu li a {
+    font-size: 2em;
+    color: white;
+    padding: 1.5% 3%;
+}
+
+.menu li a:hover {
+    border: 0.5px solid;
+    background: linear-gradient(to right, #000000, #dad6d3);
+}
+
+
+/*Banner*/
+
+.banner {
+    width: 100%;
+    float: left;
+    text-align: center;
+    background: linear-gradient(to right, #000000, #dad6d3);
+}
+
+.nav:banner {
+    width: 100%;
+    float: left;
+    text-align: center;
+    background: linear-gradient(to right, #000000, #dad6d3);
+}
+
+.title {
+    width: 100%;
+}
+
+.title h2 {
+    font-size: 2.5em;
+    color: #fff;
+    font-weight: 700;
+}
+
+.title h3 {
+    font-size: 1.5em;
+    color: #fff;
+}
+
+.buttons {
+    width: 100%;
+    margin-top: 2%;
+}
+
+.buttons i {
+    float: right;
+}
+
+
+/*Formatação de Imagens*/
+
+img#leads {
+    max-width: 25%;
+    max-height: 25%x;
+}
+
+img#vendas {
+    max-width: 25%;
+    max-height: 25%;
+}
+
+
+/*Formatação do Corpo*/
+
+.figure {
+    max-width: 50%;
+    max-height: 50%;
+}
+
+
+/*Formatação Tabela Fale Contatos*/
+
+#tabela {
+    margin: 0px;
+    border: groove;
+    font-size: 1.5em;
+    background-color: rgba(0, 0, 0, .2)
+}
+
+.texto_map {
+    float: right;
+    max-width: 30%;
+    font-size: 20px;
+}
+
+.texto_map1 {
+    float: right;
+    max-width: 30%;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #5f5b5a5b;
+}
+
+.bt {
+    background-color: #5f5b5a;
+    border-radius: 4px;
+    position: relative;
+    left: 110px;
+    width: 150px;
+    color: aliceblue;
+    cursor: pointer;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+input:focus {
+    background-color: rgba(0, 0, 0, .2);
+}
+
+#btenviar {
+    background-color: #5f5b5a;
+    border-radius: 4px;
+    position: relative;
+    width: 100%;
+    cursor: pointer;
+}
+
+
+/* Formatação de serviços */
+
+#servico {
+    float: left;
+    display: block;
+    width: 45%;
+    margin: 1%;
+    max-width: 100%;
+    max-height: 100%;
+    text-align: justify;
+}
+
+#servicos {
+    max-width: 100%;
+    max-height: 100%;
+    float: right;
+    display: block;
+    width: 45%;
+    margin: 1%;
+    text-align: justify;
+    margin-top: 14%;
+}
+
+#serv {
+    max-width: 100%;
+    max-height: 100%;
+    margin: 1%;
+    display: block;
+    width: 45%;
+    margin-top: 10px;
+    text-align: justify;
+}
+
+*/
+/* Formatação de serviços 2 */
+
+#servico {
+    float: left;
+    display: block;
+    width: 45%;
+    margin: 1%;
+    max-width: 100%;
+    max-height: 100%;
+    text-align: justify;
+}
+
+#servicos {
+    max-width: 100%;
+    max-height: 100%;
+    float: right;
+    display: block;
+    width: 45%;
+    margin: 1%;
+    text-align: justify;
+    margin-top: 14%;
+}
+
+#serv {
+    max-width: 100%;
+    max-height: 100%;
+    margin: 1%;
+    display: block;
+    width: 45%;
+    margin-top: 10px;
+    text-align: justify;
+}
+
+
+/* Formatação Blog corpo */
+
+.figure {
+    max-width: 50%;
+    max-height: 50%;
+}
+
+
+/* Formatação Blogs */
+
+#flegenda {
+    position: static;
+    left: 40px;
+    width: 33.33%;
+}
+
+#flegenda {
+    margin: 1%;
+    display: block;
+    width: 45%;
+    float: left;
+    margin-top: 10px;
+    text-align: justify;
+}
+
+#lateral {
+    display: block;
+    width: 45%;
+    float: right;
+    margin-top: 10px;
+    text-align: justify;
+    margin: 1%;
+}
+
+
+/*FOrmatação Serviços*/
+
+.servicos {
+    width: 100%;
+    float: left;
+    padding: 3% 4%;
+}
+
+.servico {
+    width: 100%;
+    background-color: #fff;
+    text-align: left;
+    border-radius: 7px;
+    margin-bottom: 3%;
+}
+
+.servico img {
+    border-radius: 7px 7px 0px 0px;
+}
+
+.inner {
+    padding: 5%;
+}
+
+.inner a {
+    font-size: 1.5em;
+    color: #130400;
+    font-weight: 700;
+}
+
+.inner h4 {
+    font-size: 1.2em;
+    color: rgba(0, 0, 0, .4);
+    margin-top: 2%;
+}
+
+.inner p {
+    margin-top: 2%;
+    color: #130400;
+    line-height: 1.5em;
+    text-align: justify;
+}
+
+
+/*Section*/
+
+.newsletter {
+    width: 100%;
+    float: left;
+    text-align: center;
+    padding: 1% 2%;
+    background-color: #5f5b5a;
+}
+
+.newsletter h2 {
+    font-size: 1.5em;
+    color: #fff;
+    font-weight: 700;
+}
+
+.newsletter h3 {
+    color: #fff;
+}
+
+.newsletter form {
+    margin-top: 2%;
+}
+
+.newsletter input {
+    background-color: rgba(0, 0, 0, .3);
+    color: rgba(255, 255, 255, .4);
+    border: 1px solid rgba(255, 255, 255, .4);
+    border-radius: 6px;
+    padding: 2%;
+}
+
+.newsletter button {
+    background-color: rgba(41, 38, 38, 0.863);
+    color: #ffffff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+/*Formatação Clientes*/
+
+section#corpo {
+    display: block;
+    width: 45%;
+    float: left;
+    margin-top: 10px;
+}
+
+aside#lateral {
+    display: block;
+    width: 45%;
+    float: right;
+    margin-top: 10px;
+}
+
+
+/* 
+/* FORMATAÇÃO MAPA */
+
+#map {
+    width: 100%;
+}
+
+#mapa {
+    width: 100%;
+    margin: 3 4;
+    max-width: 70%;
+    max-height: 50%;
+    position: relative;
+}
+
+
+/* Rodapé */
+
+.rodape {
+    width: 100%;
+    position: relative;
+    float: left;
+    padding: 3% 4%;
+    text-align: center;
+    background: linear-gradient(to right, #000000, #dad6d3);
+}
+
+.social-icons a {
+    font-size: 1em;
+    color: rgba(255, 255, 255, 0.9);
+    margin-right: 3%;
+}
+
+
+/*.social-icons a:hover {
+color: rgba(255, 255, 255);
+}*/
+
+.b1:hover {
+    background: linear-gradient(to right, #17a5f6, #65abf7);
+    border-radius: 6px;
+}
+
+.b2:hover {
+    background: linear-gradient(to right, #29a4da, #48bef2);
+}
+
+.b4:hover {
+    background: linear-gradient(to right, #8022b8, #dc8f3f);
+    border-radius: 6px;
+}
+
+.b6:hover {
+    color: #0073b1;
+}
+
+
+/* Formatação pagina de impressao do saite  */
+
+@media print {
+    .title h2 {
+        margin-top: 1.5em;
+        font-size: 2.5em;
+        color: red;
+        font-weight: 700;
+    }
+    .title h3 {
+        font-size: 1.5em;
+        color: blue;
+        font-weight: 500;
+    }
+}
+
+@media screen and (min-width:214px) {
+    .logo {
+        width: 214px;
+        background: url(../img/logo_digital2.jpg) center center/224px no-repeat;
+    }
+    .btn {
+        font-size: 2em;
+    }
+}
+
+
+/* small device smartfones */
+
+@media screen and (min-width: 480px) {
+    .logo {
+        width: 214px;
+        background: url(../img/logo_digital.png) center center/214px no-repeat;
+    }
+    .btn {
+        font-size: 2em;
+    }
+}
+
+
+/* Small Device- Tablets */
+
+@media screen and (min-width:760px) {
+    .servico {
+        width: 49%;
+        float: left;
+        margin: 2%;
+    }
+    .servicos:nth-child(2) {
+        margin-right: 0;
+    }
+    .newsletter h2 {
+        font-size: 2em;
+    }
+    .newsletter h3 {
+        font-size: 1.5em;
+    }
+    .newsletter input {
+        width: 70%;
+        padding: 2%;
+        float: left;
+        margin-right: 1%;
+    }
+    .newsletter button {
+        width: 29%;
+        padding: 2%;
+        float: right;
+        margin-top: 0;
+    }
+}
+
+
+/* MEDIUM DEVICES - TABLETS & DESKTOPS*/
+
+@media screen and (min-width: 960px) {
+    .title {
+        width: 70%;
+        float: left;
+        text-align: left;
+    }
+    .title h2 {
+        font-size: 3em;
+    }
+    .title h3 {
+        font-size: 2em;
+    }
+    .buttons {
+        width: 30%;
+        float: right;
+        margin-top: 0;
+    }
+    .servico {
+        width: 32%;
+    }
+    .servico:nth-child(2) {
+        margin-right: 2%;
+    }
+    .servico:nth-child(3) {
+        margin-right: 0;
+    }
+    .newsletter input {
+        width: 60%;
+        float: none;
+    }
+    .newsletter button {
+        width: 20%;
+        float: none;
+    }
+}
+
+
+/* LARGE DEVICES - WIDE SCREENS*/
+
+@media screen and (min-width: 1280px) {
+    .btn-menu {
+        display: none;
+    }
+    .btn-close {
+        display: none;
+    }
+    .menu {
+        width: auto;
+        height: 56px;
+        line-height: 56px;
+        float: right;
+        background-color: #f5f5f5;
+        display: block !important;
+        position: static;
+    }
+    .menu li {
+        padding: 0;
+        float: left;
+    }
+    .menu li a {
+        color: #130400;
+        font-size: 1em;
+        padding: 15px;
+    }
+    .menu li a:hover {
+        border: none;
+        background: linear-gradient(to right, #000000, #dad6d3);
+    }
+}

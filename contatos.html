@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Agência de Marketing Digital e Criação de App">
+    <meta name="author" content="Eduardo Quirino">
+    <meta name="keywords" content="Marketing,SEO,Publicidade">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="index,follow">
+    <link rel="stylesheet" href="estilo.css">
+    <script src="https://kit.fontawesome.com/8393acfefd.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="imagens/icon.png" type="image/x-icon">
+    <title>Projeto-Agência de Marketing Digital</title>
+</head>
+
+<body>
+    <header class="cabecalho">
+        <a href="http://index.html">
+            <h1 class="logo">Agência de Marketing Digital</h1>
+        </a>
+        <button class="btn-menu"><i class="fas fa-bars"></i></button>
+        <nav class="menu">
+            <a class="btn-close"><i class="fas fa-times-circle"></i></a>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="clientes.html">Clientes</a></li>
+                <li><a href="servicos.html">Serviços</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="quemsomos.html">Quem Somos</a></li>
+                <li><a href="contatos.html">Contatos</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="banner">
+        <div class="title">
+            <h2><i> Aumente sua rede de negócios</i></h2>
+            <h3><i> Transforme suas Redes Sociais numa ferramenta de negócios</i></h3>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+    <script>
+        $(".btn-menu").click(function() {
+            $(".menu").show();
+        });
+
+        $(".btn-close").click(function() {
+            $(".menu").hide();
+        });
+    </script>
+    <form action="cadastrar.php" method="get"></form>
+
+    <fieldset id="tabela">
+        <h2>Informações Cadastrais</h2><br>
+        <label for="nome">Nome:</label><br>
+        <input type="text" name="nome" id="nome" required autofocus minlength="4"><br>
+        <label for="senha">Senha:</label><br>
+        <input type="password" name="senha" id="senha" maxlength="8"><br>
+        <label for="endereco">Endereço:</label><br>
+        <input type="text" name="endereco" id="endereco" disabled><br>
+        <label for="cep">Cep:</label><br>
+        <input type="text" name="cep" id="cep" maxlength="8"><br>
+        <label for="email">Email:</label><br>
+        <input type="email" name="email" id="email"><br><br>
+        <label for="escolaridade">Tipo de mídia para ser incorporado:</label><br>
+        <input type="radio" name="Tipo de mídia" id="escolaridade" value="Ensino infantil">Impressões <br>
+        <input type="radio" name="Tipo de mídia" id="2" value="Ensino infantil">Vt´s <br>
+        <input type="radio" name="Tipo de mídia" id="6" value="Ensino infantil">Mídia de Audio e Video<br>
+        <input type="radio" name="Tipo de mídia" id="5" value="Ensino infantil">Mídia de Audio<br>
+        <input type="radio" name="Tipo de mídia" id="7" value="Ensino infantil">Mídia de Video <br>
+        <input type="radio" name="Tipo de mídia" id="8" value="Ensino infantil">Imagem com Animação<br>
+        <input type="radio" name="Tipo de mídia" id="9" value="Ensino infantil">Imagens sem Animação <br>
+        <input type="radio" name="Tipo de mídia" id="10" value="Ensino infantil">Plano Plus<br>
+        <input type="radio" name="Tipo de mídia" id="4" value="Ensino infantil">Plano Pro <br>
+        <br><label for="rede_social">Redes Sociais incorporadas:</label><br><br>
+        <input type="checkbox" name="rede_social" id="rede_social">Facebook <br>
+        <input type="checkbox" name="rede_social" id="rede_social_instagram">Instagram <br>
+        <input type="checkbox" name="rede_social" id="rede_social_twitter">Twitter <br>
+        <input type="checkbox" name="rede_social" id="rede_social_linkedin">Linkedin <br><br>
+        <label for="rede_social">Quantidade de Redes Sociais:</label>
+        <input type="number" name="quantidade" id="id_qualidade" min="0" max="100" step="5">
+        <br><br><input type="submit" value="enviar" id="btenviar">
+    </fieldset>
+    <div id="map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3658.1242819856775!2d-46.69399738487185!3d-23.528031966247845!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cef8775663b04f%3A0x923835e9005f8309!2sSenac%20Lapa%20Tito!5e0!3m2!1spt-BR!2sbr!4v1583436413104!5m2!1spt-BR!2sbr"
+            width="600" height="450" style="border:0;" allowfullscreen="" id="mapa">
+         </iframe>
+        <address class="texto_map1">
+            Nosso endereço: 
+            R. Tito, 54 - Vila Romana, São Paulo - SP, 05051-000 
+            
+                    </address>
+    </div>
+    <footer class="rodape">
+        <div class="social-icons">
+            <a class="b1" href="https://www.facebook.com/Agencia-Marketing-106442284305836/" target="blank"><i class="fab fa-facebook"></i> Facebook</a>
+            <a class="b2" href="https://twitter.com/agenciamkt2" target="blank"><i class="fab fa-twitter-square"></i>Twitter</a>
+            <a class="b4" href="https://www.instagram.com/ag_mkt2020/?hl=pt-br" target="blank"><i class="fab fa-instagram-square"></i>instagram</a>
+            <a class="b6" href="https://www.linkedin.com/in/agencia-marketing-5373201a4/" target="blan"><i class="fab fa-linkedin"></i>Linkedin</a>
+        </div>
+        <p> &reg; -Todos os direitos reservados- <br> Cleiton Antonio <br> Eduardo Quirino <br> Pedro Alves</p>
+        <i class="fas fa-mobile"></i>
+    </footer>
+</body>
+
+</html>
